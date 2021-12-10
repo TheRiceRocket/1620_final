@@ -198,3 +198,28 @@ input[type="text"]:focus {
 	background: var(--darkGreen);
 	color: var(--white);
 }
+
+@media screen and (max-width: 600px) {
+	h2 {
+		font-size: 3rem;
+	}
+	.myForm {
+		display: flex;
+		flex-direction: column;
+		font-family: Poppins, sans-serif;
+		border-radius: 8px;
+		padding: 1.8rem;
+	}
+	.contact {
+		order: 2;
+	}
+	.message {
+		order: 1;
+	}
+	.message > textarea {
+		flex: 1;
+		min-width: 45rem;
+		min-height: 23rem;
+		font-size: 1.8rem;
+	}
+}
