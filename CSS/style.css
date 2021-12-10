@@ -30,12 +30,12 @@
 }
 
 .dark-theme {
-	--navBg: var(--romanSilver);
-	--navLinkHoverBg: var(--white);
-	--mainBg: var(--white);
-	--fontColor: var(--black);
+	--navBg: var(--black);
+	--navLinkHoverBg: var(--romanSilver);
+	--mainBg: var(--romanSilver);
+	--fontColor: var(--white);
 	--navLinkColor: var(--lightCoral);
-	--formBG: var(--lightCoral);
+	--formBG: var(--black);
 	--formInput: var(--white);
 }
 
